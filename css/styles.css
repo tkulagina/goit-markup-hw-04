@@ -122,11 +122,32 @@ img {
     color: var(--text-color);
 }
 
+.envelope-icon-header {
+    width: 16px;
+    height: 12px;
+    padding: 0;
+    margin-right: 10px;
+}
+
+.tel-icon-header {
+    width: 10px;
+    height: 16px;
+    padding: 0;
+    margin-right: 10px;
+}
+
 .menu a:hover,
 .menu a:focus,
 .connect a:hover,
 .connect a:focus {
     color: var(--brand-color);
+}
+
+.envelope-icon-header:hover,
+.envelope-icon-header:focus, 
+.tel-icon-header:hover,
+.tel-icon-header:focus {
+    fill: var(--brand-color);
 }
 
 .top-site {
