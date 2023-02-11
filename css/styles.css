@@ -75,8 +75,10 @@ img {
 
 .connect {
     display: flex;
-    margin-left: auto;
-    align-items: flex-end
+    margin-left: auto; 
+    align-items: center;
+    /*align-items: stretch;*/
+    /*align-items: flex-end*/
 }
 
 .menu .item + .item {
